@@ -3,8 +3,10 @@ import sys
 sum = 0
 n = 0
 # Another Comment
+
+file_name = 'data.txt'
 # Sum input value
-for num in open('data.txt'):
+for num in open(file_name):
   sum += float(num)
   n += 1
 
